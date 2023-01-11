@@ -1,9 +1,13 @@
 :root {
-  --contact-button-background-color: #ffff33;
-  --contact-button-text-color: #0c0c8b;
+  --contact-button-background-color: #f0f011;
+  --buttons-text-and-border-color: #0c0c8b;
   --default-font-family: "Nunito", sans-serif;
   --headings-color: #504e4e;
-  --home-page-background: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  --home-page-background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
 }
 
 body {
@@ -13,12 +17,33 @@ body {
 h1 {
   font-size: 96px;
   font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .contact-button {
+  border: 1px solid var(--buttons-text-and-border-color);
   border-radius: 4px;
   background: var(--contact-button-background-color);
-  color: var(--contact-button-text-color);
+  color: var(---buttons-text-and-border-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.launch-project-button {
+  border: 1px solid var(--buttons-text-and-border-color);
+  border-radius: 4px;
+  color: var(--buttons-text-and-border-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -40,5 +65,28 @@ h1 {
 .introducing-section h2 {
   color: var(--headings-color);
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
+}
+
+.project-description {
+  padding: 5px 60px;
+}
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .introducing-section {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    text-align: center;
+  }
 }
