@@ -1,5 +1,5 @@
 :root {
-  --contact-button-background-color: #f0f011;
+  --contact-button-background-color: #eed3a2;
   --buttons-text-and-border-color: #0c0c8b;
   --default-font-family: "Nunito", sans-serif;
   --headings-color: #504e4e;
@@ -31,9 +31,9 @@ p {
 }
 
 .contact-button {
+  background: var(--contact-button-background-color);
   border: 1px solid var(--buttons-text-and-border-color);
   border-radius: 4px;
-  background: var(--contact-button-background-color);
   color: var(---buttons-text-and-border-color);
   font-size: 18px;
   line-height: 27px;
@@ -74,12 +74,12 @@ p {
 
 @media (max-width: 990px) {
   h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 2;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   .introducing-section {
