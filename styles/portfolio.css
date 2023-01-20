@@ -1,6 +1,6 @@
 :root {
   --contact-button-background-color: #f8e8ca;
-  --buttons-text-and-border-color: #0c0c8b;
+  --buttons-and-links-text-and-border-color: #0c0c8b;
   --default-font-family: "Nunito", sans-serif;
   --headings-color: #504e4e;
   --home-page-background: linear-gradient(
@@ -51,29 +51,38 @@ p {
 
 .contact-button {
   background: var(--contact-button-background-color);
-  border: 1px solid var(--buttons-text-and-border-color);
+  border: 1px solid var(--buttons-and-links-text-and-border-color);
   border-radius: 4px;
-  color: var(--buttons-text-and-border-color);
+  color: var(---buttons-and-links-text-and-border-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .contact-button:hover {
-  border: 1px solid var(--buttons-text-and-border-color);
+  border: 1px solid var(--buttons-and-links-text-and-border-color);
 }
 
 .launch-project-button {
-  border: 1px solid var(--buttons-text-and-border-color);
+  border: 1px solid var(--buttons-and-links-text-and-border-color);
   border-radius: 4px;
-  color: var(--buttons-text-and-border-color);
+  color: var(--buttons-and-links-text-and-border-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .launch-project-button:hover {
-  border: 1px solid var(--buttons-text-and-border-color);
+  border: 1px solid var(--buttons-and-links-text-and-border-color);
+}
+
+.contact-section {
+  padding-top: 80px;
+}
+
+.contact-section h3 {
+  font-size: 18px;
+  color: var(--buttons-and-links-text-and-border-color);
 }
 
 .content-container {
