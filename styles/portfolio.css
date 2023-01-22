@@ -1,13 +1,8 @@
 :root {
-  --contact-button-background-color: #f8e8ca;
+  --contact-button-background-color: #f7f4ef;
   --buttons-and-links-text-and-border-color: #0c0c8b;
   --default-font-family: "Nunito", sans-serif;
   --headings-color: #504e4e;
-  --home-page-background: linear-gradient(
-    178.6deg,
-    rgb(232, 245, 253) 3.3%,
-    rgb(252, 253, 255) 109.6%
-  );
 }
 
 body {
@@ -65,7 +60,6 @@ nav a:hover {
 }
 
 .introducing-section {
-  background-image: var(--home-page-background);
   padding: 80px 20px;
   text-align: center;
 }
@@ -102,6 +96,10 @@ nav a:hover {
 .content h1 {
   font-size: 52px;
   line-height: 80px;
+}
+
+.content h2 {
+  color: var(--headings-color);
 }
 
 .content h3 {
@@ -141,7 +139,7 @@ nav a:hover {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 60px 0 10px 0;
 }
 
 footer .email-link {
@@ -170,13 +168,13 @@ footer .social-links a:hover {
 
 @media (max-width: 990px) {
   h1 {
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 36px;
+    line-height: 52px;
   }
 
   .content h1 {
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 36px;
+    line-height: 52px;
   }
 
   .project-description {
