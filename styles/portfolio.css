@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ nav a:hover {
 
 .introducing-section {
   background-image: var(--home-page-background);
-  padding: 160px 20px;
+  padding: 80px 20px;
   text-align: center;
 }
 
@@ -79,12 +79,11 @@ nav a:hover {
 
 .introducing-section h2 {
   color: var(--headings-color);
-  font-size: 24px;
   line-height: 1.5;
 }
 
 .contact-section {
-  padding-top: 80px;
+  padding: 120px 0;
 }
 
 .contact-section h3 {
@@ -93,7 +92,7 @@ nav a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -103,10 +102,6 @@ nav a:hover {
 .content h1 {
   font-size: 52px;
   line-height: 80px;
-}
-
-.content h2 {
-  font-size: 18px;
 }
 
 .content h3 {
@@ -143,10 +138,6 @@ nav a:hover {
 
 .project-description {
   padding: 5px 60px;
-}
-
-.project-description h2 {
-  font-size: 64px;
 }
 
 footer {
@@ -188,20 +179,8 @@ footer .social-links a:hover {
     line-height: 56px;
   }
 
-  h2 {
-    font-size: 40px;
-  }
-
-  .introducing-section {
-    padding: 80px 20px;
-  }
-
   .project-description {
     text-align: center;
-  }
-
-  .project-description h2 {
-    font-size: 18px;
   }
 
   .content-container {
